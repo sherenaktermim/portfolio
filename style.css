@@ -1,0 +1,165 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header-container{background-image: url(/image/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom,right;
+  background-color: rgb(245, 235, 215);
+  
+}
+
+  .navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #portfolio-owner{
+   
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: italic;
+  }
+
+  .list-container{
+    display: flex;
+    align-items: center;
+  }
+
+  li{
+    margin: 16px ;
+    list-style-type: none;
+  }
+
+  a{text-decoration: none;}
+
+  .primary-btn{
+    background-color: brown;
+    padding: 12px 24px;
+    border: none;
+    font-weight: 700;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .banner-container{
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    gap: 16px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+.banner-content{
+  max-width: 500px;
+
+}
+
+  .banner-img{
+    max-width: 400px;
+    margin-bottom: -6px;
+  }
+
+
+  .text-section{
+    margin: 100px 150px;background-color: RGB(245, 235, 215);
+    padding: 150px;
+  }
+
+  .text-design{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+
+  .technology-section{
+    margin: 0 150px;
+    padding: 10;
+    
+  }
+
+
+  .technology-icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  
+  .resume{
+    margin:100px 150px 0px 150px;
+    padding: 10;
+  }
+
+  .resume-div{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+  .content{
+background-color: RGB(245, 235, 215) ;
+margin: 0px 20px;
+  }
+
+
+.social link{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 150px ;
+ 
+}
+
+.form-left{
+  max-width: 500px;
+
+}
+
+
+.fname{ width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none hsl(0, 39%, 73%);
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: grey;
+
+}
+
+.text{
+  width: 100%;
+  padding: 12px 20px 100px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none 
+  RGB(245, 235, 215);
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: grey;
+
+}
+
+.btn{padding: 12px 30px;font-weight: 700;font-size: 20px;
+  border-radius: 4px;background-color: RGB(255, 69, 0);
+  border: none;color: 
+  RGB(245, 235, 215)
+
+}
+
